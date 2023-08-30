@@ -80,6 +80,7 @@ void Remote_Data_handle(RCTypeDef *rc, uint8_t *buff)
     rc->sw1 = ((buff[6] >> 4|buff[7]<<4) & 0x07FF) ;
     rc->sw2 = ((buff[7] >> 7|buff[8]<<1) & 0x07FF) ;
 
+
     /* 遥控器异常值处理，函数直接返回 */
     if ((abs(rc->ch1) > 700) || \
       (abs(rc->ch2) > 700) || \

@@ -88,7 +88,7 @@
 
 
 /* 遥控器的最大行程 */
-#define RC_MAX_VALUE      660.0f
+#define RC_MAX_VALUE      700.0f
 
 #define RC_RATIO          0.002f
 #define KB_RATIO          0.02f
