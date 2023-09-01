@@ -1,0 +1,3 @@
+D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/CMakeFiles/C8T6_MPU6050.elf.dir
+D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/CMakeFiles/rebuild_cache.dir
