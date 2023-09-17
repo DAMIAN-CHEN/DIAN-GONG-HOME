@@ -5,13 +5,13 @@
 # compile C with D:/Clion-environment/10 2021.10/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -I"D:\STM32CubeMX project\C8T6_MPU6050\Core\Inc" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\CMSIS\Device\ST\STM32F1xx\Include" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\CMSIS\Include" -I"D:\STM32CubeMX project\C8T6_MPU6050\Bsp"
+ASM_INCLUDES = -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Inc -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\CMSIS\Include -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Bsp
 
 ASM_FLAGS = -g -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
 
-C_INCLUDES = -I"D:\STM32CubeMX project\C8T6_MPU6050\Core\Inc" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\CMSIS\Device\ST\STM32F1xx\Include" -I"D:\STM32CubeMX project\C8T6_MPU6050\Drivers\CMSIS\Include" -I"D:\STM32CubeMX project\C8T6_MPU6050\Bsp"
+C_INCLUDES = -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Inc -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\CMSIS\Include -ID:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Bsp
 
 C_FLAGS = -g -fdiagnostics-color=always -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 

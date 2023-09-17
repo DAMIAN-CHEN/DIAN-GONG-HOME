@@ -52,10 +52,10 @@ RM = D:\DIAN-KONG\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\STM32CubeMX project\C8T6_MPU6050"
+CMAKE_SOURCE_DIR = D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug"
+CMAKE_BINARY_DIR = D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/C8T6_MPU6050.elf.dir/depend.make
@@ -69,367 +69,367 @@ include CMakeFiles/C8T6_MPU6050.elf.dir/progress.make
 include CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Bsp/mpu_6050.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Bsp/mpu_6050.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Bsp\mpu_6050.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Bsp\mpu_6050.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Bsp\mpu_6050.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Bsp\mpu_6050.c > CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Bsp\mpu_6050.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Bsp\mpu_6050.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Bsp\mpu_6050.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/gpio.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/gpio.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\gpio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\gpio.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\gpio.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\gpio.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\gpio.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\gpio.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/i2c.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/i2c.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\i2c.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\i2c.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\i2c.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\i2c.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\i2c.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\i2c.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\i2c.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/main.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/main.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\main.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\main.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\main.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\main.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\main.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/stm32f1xx_hal_msp.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\stm32f1xx_hal_msp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\stm32f1xx_hal_msp.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\stm32f1xx_hal_msp.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/stm32f1xx_it.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/stm32f1xx_it.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\stm32f1xx_it.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\stm32f1xx_it.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\stm32f1xx_it.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\stm32f1xx_it.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\stm32f1xx_it.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\stm32f1xx_it.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/syscalls.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/syscalls.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\syscalls.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\syscalls.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\syscalls.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\syscalls.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\syscalls.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\syscalls.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/sysmem.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/sysmem.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\sysmem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\sysmem.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\sysmem.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\sysmem.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\sysmem.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\sysmem.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/system_stm32f1xx.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/system_stm32f1xx.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\system_stm32f1xx.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\system_stm32f1xx.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\system_stm32f1xx.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\system_stm32f1xx.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\system_stm32f1xx.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\system_stm32f1xx.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Src/usart.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Src/usart.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\usart.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\usart.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\usart.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\usart.c > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Src\usart.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\usart.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Src\usart.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Core/Startup/startup_stm32f103c8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Core\Startup\startup_stm32f103c8tx.s"
+CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Core/Startup/startup_stm32f103c8tx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Startup\startup_stm32f103c8tx.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Core\Startup\startup_stm32f103c8tx.s" > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Startup\startup_stm32f103c8tx.s.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Startup\startup_stm32f103c8tx.s > CMakeFiles\C8T6_MPU6050.elf.dir\Core\Startup\startup_stm32f103c8tx.s.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Core\Startup\startup_stm32f103c8tx.s" -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Startup\startup_stm32f103c8tx.s.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Startup\startup_stm32f103c8tx.s -o CMakeFiles\C8T6_MPU6050.elf.dir\Core\Startup\startup_stm32f103c8tx.s.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/flags.make
-CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: D:/STM32CubeMX\ project/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/C8T6_MPU6050.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c" > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
 
 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
-	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\STM32CubeMX project\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c" -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
+	"D:\Clion-environment\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\C8T6_MPU6050.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
 
 # Object files for target C8T6_MPU6050.elf
 C8T6_MPU6050_elf_OBJECTS = \
@@ -491,12 +491,12 @@ C8T6_MPU6050.elf: CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/S
 C8T6_MPU6050.elf: CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 C8T6_MPU6050.elf: CMakeFiles/C8T6_MPU6050.elf.dir/build.make
 C8T6_MPU6050.elf: CMakeFiles/C8T6_MPU6050.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable C8T6_MPU6050.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable C8T6_MPU6050.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\C8T6_MPU6050.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.bin"
-	arm-none-eabi-objcopy -Oihex "D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.elf" "D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.hex"
-	arm-none-eabi-objcopy -Obinary "D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.elf" "D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.bin"
+	arm-none-eabi-objcopy -Oihex D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.elf D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.hex
+	arm-none-eabi-objcopy -Obinary D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.elf D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/C8T6_MPU6050.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/C8T6_MPU6050.elf.dir/build: C8T6_MPU6050.elf
@@ -507,6 +507,6 @@ CMakeFiles/C8T6_MPU6050.elf.dir/clean:
 .PHONY : CMakeFiles/C8T6_MPU6050.elf.dir/clean
 
 CMakeFiles/C8T6_MPU6050.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\STM32CubeMX project\C8T6_MPU6050" "D:\STM32CubeMX project\C8T6_MPU6050" "D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug" "D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug" "D:\STM32CubeMX project\C8T6_MPU6050\cmake-build-debug\CMakeFiles\C8T6_MPU6050.elf.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050 D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050 D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\cmake-build-debug\CMakeFiles\C8T6_MPU6050.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/C8T6_MPU6050.elf.dir/depend
 

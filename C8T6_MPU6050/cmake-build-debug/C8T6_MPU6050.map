@@ -128,8 +128,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa8 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
  .debug_ranges  0x00000000       0x98 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x400 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x42c CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000000      0x402 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000      0x430 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x190 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -146,8 +146,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
  .debug_ranges  0x00000000       0x10 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x00000000      0x1ad CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00000000      0x258 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00000000      0x1af CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00000000      0x25c CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
@@ -180,6 +180,8 @@ Discarded input sections
                 0x00000000       0x2c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x00000000        0xc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .text.HAL_Delay
+                0x00000000       0x28 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x00000000        0xe CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -270,8 +272,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x80 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_ranges  0x00000000       0x70 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x00000000      0xa84 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_str     0x00000000      0x63d CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xa8a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x00000000      0x641 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x144 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .ARM.attributes
@@ -303,8 +305,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
- .debug_line    0x00000000      0x61f CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
- .debug_str     0x00000000      0x416 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+ .debug_line    0x00000000      0x625 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x41a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
  .debug_frame   0x00000000       0xe8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
  .ARM.attributes
@@ -347,8 +349,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x88 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
  .debug_ranges  0x00000000       0x78 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
- .debug_line    0x00000000      0x7b2 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
- .debug_str     0x00000000      0x56f CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+ .debug_line    0x00000000      0x7b8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+ .debug_str     0x00000000      0x573 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x134 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
  .ARM.attributes
@@ -394,8 +396,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x98 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
  .debug_ranges  0x00000000       0x88 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0x944 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
- .debug_str     0x00000000      0x685 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0x94a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000      0x689 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x194 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -432,8 +434,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x30 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
  .debug_ranges  0x00000000       0x20 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
- .debug_line    0x00000000      0x1c3 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
- .debug_str     0x00000000      0x297 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+ .debug_line    0x00000000      0x1c7 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+ .debug_str     0x00000000      0x29b CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
  .debug_frame   0x00000000       0x40 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
  .ARM.attributes
@@ -628,8 +630,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
  .debug_ranges  0x00000000       0x98 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
- .debug_line    0x00000000      0x4ae CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x4db CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0x4b6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x4df CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x140 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
  .ARM.attributes
@@ -672,8 +674,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x30 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .debug_ranges  0x00000000       0x38 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_line    0x00000000      0x4bd CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_str     0x00000000      0x413 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_line    0x00000000      0x4c3 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_str     0x00000000      0x417 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .debug_frame   0x00000000       0x5c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .ARM.attributes
@@ -686,7 +688,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_str     0x00000000      0x1e3 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x00000000      0x1e7 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .ARM.attributes
                 0x00000000       0x2d CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
@@ -698,7 +700,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_line    0x00000000       0x1d CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_str     0x00000000      0x1e6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x00000000      0x1ea CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .comment       0x00000000       0x4a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x00000000       0x2d CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
@@ -1050,7 +1052,7 @@ LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x08000110     0x2600
+.text           0x08000110     0x25d0
                 0x08000110                . = ALIGN (0x4)
  *(.text)
  .text          0x08000110       0x40 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -1101,293 +1103,290 @@ LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
  .text.SystemClock_Config
                 0x08000b4c       0x64 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
                 0x08000b4c                SystemClock_Config
- .text.main     0x08000bb0       0x88 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
+ .text.main     0x08000bb0       0x80 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
                 0x08000bb0                main
  .text.HAL_MspInit
-                0x08000c38       0x44 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08000c38                HAL_MspInit
+                0x08000c30       0x44 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08000c30                HAL_MspInit
  .text.NMI_Handler
-                0x08000c7c        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c7c                NMI_Handler
+                0x08000c74        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c74                NMI_Handler
  .text.HardFault_Handler
-                0x08000c7e        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c7e                HardFault_Handler
+                0x08000c76        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c76                HardFault_Handler
  .text.MemManage_Handler
-                0x08000c80        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c80                MemManage_Handler
+                0x08000c78        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c78                MemManage_Handler
  .text.BusFault_Handler
-                0x08000c82        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c82                BusFault_Handler
+                0x08000c7a        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c7a                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000c84        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c84                UsageFault_Handler
+                0x08000c7c        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c7c                UsageFault_Handler
  .text.SVC_Handler
-                0x08000c86        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c86                SVC_Handler
+                0x08000c7e        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c7e                SVC_Handler
  .text.DebugMon_Handler
-                0x08000c88        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c88                DebugMon_Handler
+                0x08000c80        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c80                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000c8a        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c8a                PendSV_Handler
+                0x08000c82        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c82                PendSV_Handler
  .text.SysTick_Handler
-                0x08000c8c        0x8 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000c8c                SysTick_Handler
+                0x08000c84        0x8 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08000c84                SysTick_Handler
  .text.SystemInit
-                0x08000c94        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08000c94                SystemInit
- *fill*         0x08000c96        0x2 
+                0x08000c8c        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08000c8c                SystemInit
+ *fill*         0x08000c8e        0x2 
  .text.MX_USART1_UART_Init
-                0x08000c98       0x34 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
-                0x08000c98                MX_USART1_UART_Init
+                0x08000c90       0x34 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
+                0x08000c90                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08000ccc       0x78 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
-                0x08000ccc                HAL_UART_MspInit
+                0x08000cc4       0x78 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
+                0x08000cc4                HAL_UART_MspInit
  .text.Reset_Handler
-                0x08000d44       0x48 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                0x08000d44                Reset_Handler
+                0x08000d3c       0x48 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x08000d3c                Reset_Handler
  .text.Default_Handler
-                0x08000d8c        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                0x08000d8c                RTC_Alarm_IRQHandler
-                0x08000d8c                EXTI2_IRQHandler
-                0x08000d8c                TIM1_CC_IRQHandler
-                0x08000d8c                PVD_IRQHandler
-                0x08000d8c                EXTI3_IRQHandler
-                0x08000d8c                EXTI0_IRQHandler
-                0x08000d8c                I2C2_EV_IRQHandler
-                0x08000d8c                ADC1_2_IRQHandler
-                0x08000d8c                SPI1_IRQHandler
-                0x08000d8c                TAMPER_IRQHandler
-                0x08000d8c                DMA1_Channel4_IRQHandler
-                0x08000d8c                USART3_IRQHandler
-                0x08000d8c                RTC_IRQHandler
-                0x08000d8c                DMA1_Channel7_IRQHandler
-                0x08000d8c                CAN1_RX1_IRQHandler
-                0x08000d8c                TIM4_IRQHandler
-                0x08000d8c                I2C1_EV_IRQHandler
-                0x08000d8c                DMA1_Channel6_IRQHandler
-                0x08000d8c                TIM3_IRQHandler
-                0x08000d8c                RCC_IRQHandler
-                0x08000d8c                TIM1_TRG_COM_IRQHandler
-                0x08000d8c                DMA1_Channel1_IRQHandler
-                0x08000d8c                Default_Handler
-                0x08000d8c                EXTI15_10_IRQHandler
-                0x08000d8c                EXTI9_5_IRQHandler
-                0x08000d8c                SPI2_IRQHandler
-                0x08000d8c                DMA1_Channel5_IRQHandler
-                0x08000d8c                EXTI4_IRQHandler
-                0x08000d8c                USB_LP_CAN1_RX0_IRQHandler
-                0x08000d8c                USB_HP_CAN1_TX_IRQHandler
-                0x08000d8c                DMA1_Channel3_IRQHandler
-                0x08000d8c                TIM1_UP_IRQHandler
-                0x08000d8c                WWDG_IRQHandler
-                0x08000d8c                TIM2_IRQHandler
-                0x08000d8c                TIM1_BRK_IRQHandler
-                0x08000d8c                EXTI1_IRQHandler
-                0x08000d8c                USART2_IRQHandler
-                0x08000d8c                I2C2_ER_IRQHandler
-                0x08000d8c                DMA1_Channel2_IRQHandler
-                0x08000d8c                CAN1_SCE_IRQHandler
-                0x08000d8c                FLASH_IRQHandler
-                0x08000d8c                USART1_IRQHandler
-                0x08000d8c                I2C1_ER_IRQHandler
-                0x08000d8c                USBWakeUp_IRQHandler
- *fill*         0x08000d8e        0x2 
+                0x08000d84        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x08000d84                RTC_Alarm_IRQHandler
+                0x08000d84                EXTI2_IRQHandler
+                0x08000d84                TIM1_CC_IRQHandler
+                0x08000d84                PVD_IRQHandler
+                0x08000d84                EXTI3_IRQHandler
+                0x08000d84                EXTI0_IRQHandler
+                0x08000d84                I2C2_EV_IRQHandler
+                0x08000d84                ADC1_2_IRQHandler
+                0x08000d84                SPI1_IRQHandler
+                0x08000d84                TAMPER_IRQHandler
+                0x08000d84                DMA1_Channel4_IRQHandler
+                0x08000d84                USART3_IRQHandler
+                0x08000d84                RTC_IRQHandler
+                0x08000d84                DMA1_Channel7_IRQHandler
+                0x08000d84                CAN1_RX1_IRQHandler
+                0x08000d84                TIM4_IRQHandler
+                0x08000d84                I2C1_EV_IRQHandler
+                0x08000d84                DMA1_Channel6_IRQHandler
+                0x08000d84                TIM3_IRQHandler
+                0x08000d84                RCC_IRQHandler
+                0x08000d84                TIM1_TRG_COM_IRQHandler
+                0x08000d84                DMA1_Channel1_IRQHandler
+                0x08000d84                Default_Handler
+                0x08000d84                EXTI15_10_IRQHandler
+                0x08000d84                EXTI9_5_IRQHandler
+                0x08000d84                SPI2_IRQHandler
+                0x08000d84                DMA1_Channel5_IRQHandler
+                0x08000d84                EXTI4_IRQHandler
+                0x08000d84                USB_LP_CAN1_RX0_IRQHandler
+                0x08000d84                USB_HP_CAN1_TX_IRQHandler
+                0x08000d84                DMA1_Channel3_IRQHandler
+                0x08000d84                TIM1_UP_IRQHandler
+                0x08000d84                WWDG_IRQHandler
+                0x08000d84                TIM2_IRQHandler
+                0x08000d84                TIM1_BRK_IRQHandler
+                0x08000d84                EXTI1_IRQHandler
+                0x08000d84                USART2_IRQHandler
+                0x08000d84                I2C2_ER_IRQHandler
+                0x08000d84                DMA1_Channel2_IRQHandler
+                0x08000d84                CAN1_SCE_IRQHandler
+                0x08000d84                FLASH_IRQHandler
+                0x08000d84                USART1_IRQHandler
+                0x08000d84                I2C1_ER_IRQHandler
+                0x08000d84                USBWakeUp_IRQHandler
+ *fill*         0x08000d86        0x2 
  .text.HAL_InitTick
-                0x08000d90       0x4c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000d90                HAL_InitTick
+                0x08000d88       0x4c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000d88                HAL_InitTick
  .text.HAL_Init
-                0x08000ddc       0x24 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000ddc                HAL_Init
+                0x08000dd4       0x24 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000dd4                HAL_Init
  .text.HAL_IncTick
-                0x08000e00       0x18 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000e00                HAL_IncTick
+                0x08000df8       0x18 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000df8                HAL_IncTick
  .text.HAL_GetTick
-                0x08000e18        0xc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000e18                HAL_GetTick
- .text.HAL_Delay
-                0x08000e24       0x28 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000e24                HAL_Delay
+                0x08000e10        0xc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000e10                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000e4c       0x24 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000e4c                HAL_NVIC_SetPriorityGrouping
+                0x08000e1c       0x24 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000e1c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000e70       0x70 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000e70                HAL_NVIC_SetPriority
+                0x08000e40       0x70 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000e40                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x08000ee0       0x28 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000ee0                HAL_SYSTICK_Config
+                0x08000eb0       0x28 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000eb0                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x08000f08      0x224 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000f08                HAL_GPIO_Init
+                0x08000ed8      0x224 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08000ed8                HAL_GPIO_Init
  .text.I2C_IsAcknowledgeFailed
-                0x0800112c       0x32 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x080010fc       0x32 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_WaitOnFlagUntilTimeout
-                0x0800115e       0xaa CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x0800112e       0xaa CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_WaitOnMasterAddressFlagUntilTimeout
-                0x08001208       0xd6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x080011d8       0xd6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_WaitOnTXEFlagUntilTimeout
-                0x080012de       0x5e CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x080012ae       0x5e CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryWrite
-                0x0800133c       0xd8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x0800130c       0xd8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_RequestMemoryRead
-                0x08001414      0x154 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x080013e4      0x154 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_WaitOnBTFFlagUntilTimeout
-                0x08001568       0x5e CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x08001538       0x5e CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .text.I2C_WaitOnRXNEFlagUntilTimeout
-                0x080015c6       0x78 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- *fill*         0x0800163e        0x2 
+                0x08001596       0x78 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ *fill*         0x0800160e        0x2 
  .text.HAL_I2C_Init
-                0x08001640      0x1bc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                0x08001640                HAL_I2C_Init
+                0x08001610      0x1bc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x08001610                HAL_I2C_Init
  .text.HAL_I2C_Mem_Write
-                0x080017fc      0x164 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                0x080017fc                HAL_I2C_Mem_Write
+                0x080017cc      0x164 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x080017cc                HAL_I2C_Mem_Write
  .text.HAL_I2C_Mem_Read
-                0x08001960      0x348 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                0x08001960                HAL_I2C_Mem_Read
+                0x08001930      0x348 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x08001930                HAL_I2C_Mem_Read
  .text.RCC_Delay
-                0x08001ca8       0x2c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001c78       0x2c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x08001cd4      0x410 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001cd4                HAL_RCC_OscConfig
+                0x08001ca4      0x410 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001ca4                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x080020e4       0x54 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080020e4                HAL_RCC_GetSysClockFreq
+                0x080020b4       0x54 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080020b4                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08002138      0x16c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08002138                HAL_RCC_ClockConfig
+                0x08002108      0x16c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002108                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x080022a4        0xc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080022a4                HAL_RCC_GetHCLKFreq
+                0x08002274        0xc CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002274                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x080022b0       0x20 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080022b0                HAL_RCC_GetPCLK1Freq
+                0x08002280       0x20 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002280                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x080022d0       0x20 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080022d0                HAL_RCC_GetPCLK2Freq
+                0x080022a0       0x20 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080022a0                HAL_RCC_GetPCLK2Freq
  .text.UART_SetConfig
-                0x080022f0       0x94 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080022c0       0x94 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_WaitOnFlagUntilTimeout
-                0x08002384       0x88 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002354       0x88 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x0800240c       0x60 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800240c                HAL_UART_Init
+                0x080023dc       0x60 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080023dc                HAL_UART_Init
  .text.HAL_UART_Transmit
-                0x0800246c       0xbe CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800246c                HAL_UART_Transmit
- *fill*         0x0800252a        0x2 
+                0x0800243c       0xbe CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800243c                HAL_UART_Transmit
+ *fill*         0x080024fa        0x2 
  .text.__libc_init_array
-                0x0800252c       0x48 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
-                0x0800252c                __libc_init_array
- .text.memset   0x08002574       0xa4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
-                0x08002574                memset
+                0x080024fc       0x48 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x080024fc                __libc_init_array
+ .text.memset   0x08002544       0xa4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x08002544                memset
  .text.startup.register_fini
-                0x08002618       0x14 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x0800262c        0xc d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
-                0x0800262c                atexit
+                0x080025e8       0x14 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080025fc        0xc d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x080025fc                atexit
  .text.__libc_fini_array
-                0x08002638       0x2c d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
-                0x08002638                __libc_fini_array
+                0x08002608       0x2c d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x08002608                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08002664        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08002664                __retarget_lock_acquire_recursive
+                0x08002634        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x08002634                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08002668        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08002668                __retarget_lock_release_recursive
+                0x08002638        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x08002638                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x0800266c       0x8c d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
-                0x0800266c                __register_exitproc
+                0x0800263c       0x8c d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x0800263c                __register_exitproc
  *(.glue_7)
- .glue_7        0x080026f8        0x0 linker stubs
+ .glue_7        0x080026c8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080026f8        0x0 linker stubs
+ .glue_7t       0x080026c8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080026f8        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x080026c8        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x080026f8        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x080026f8                _init
- .init          0x080026fc        0x8 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x080026c8        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x080026c8                _init
+ .init          0x080026cc        0x8 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08002704        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x08002704                _fini
- .fini          0x08002708        0x8 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x08002710                . = ALIGN (0x4)
-                0x08002710                _etext = .
+ .fini          0x080026d4        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x080026d4                _fini
+ .fini          0x080026d8        0x8 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x080026e0                . = ALIGN (0x4)
+                0x080026e0                _etext = .
 
-.vfp11_veneer   0x08002710        0x0
- .vfp11_veneer  0x08002710        0x0 linker stubs
+.vfp11_veneer   0x080026e0        0x0
+ .vfp11_veneer  0x080026e0        0x0 linker stubs
 
-.v4_bx          0x08002710        0x0
- .v4_bx         0x08002710        0x0 linker stubs
+.v4_bx          0x080026e0        0x0
+ .v4_bx         0x080026e0        0x0 linker stubs
 
-.iplt           0x08002710        0x0
- .iplt          0x08002710        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x080026e0        0x0
+ .iplt          0x080026e0        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08002710       0x30
-                0x08002710                . = ALIGN (0x4)
+.rodata         0x080026e0       0x30
+                0x080026e0                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08002710       0x10 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08002710                AHBPrescTable
+                0x080026e0       0x10 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080026e0                AHBPrescTable
  .rodata.APBPrescTable
-                0x08002720        0x8 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08002720                APBPrescTable
+                0x080026f0        0x8 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080026f0                APBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x08002728       0x10 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080026f8       0x10 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x08002738        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x0800273a        0x2 
+                0x08002708        0x2 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x0800270a        0x2 
  .rodata._global_impure_ptr
-                0x0800273c        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
-                0x0800273c                _global_impure_ptr
-                0x08002740                . = ALIGN (0x4)
+                0x0800270c        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x0800270c                _global_impure_ptr
+                0x08002710                . = ALIGN (0x4)
 
-.rel.dyn        0x08002740        0x0
- .rel.iplt      0x08002740        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08002710        0x0
+ .rel.iplt      0x08002710        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x08002740        0x0
-                0x08002740                . = ALIGN (0x4)
+.ARM.extab      0x08002710        0x0
+                0x08002710                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08002740                . = ALIGN (0x4)
+                0x08002710                . = ALIGN (0x4)
 
-.ARM            0x08002740        0x0
-                0x08002740                . = ALIGN (0x4)
-                0x08002740                __exidx_start = .
+.ARM            0x08002710        0x0
+                0x08002710                . = ALIGN (0x4)
+                0x08002710                __exidx_start = .
  *(.ARM.exidx*)
-                0x08002740                __exidx_end = .
-                0x08002740                . = ALIGN (0x4)
+                0x08002710                __exidx_end = .
+                0x08002710                . = ALIGN (0x4)
 
-.preinit_array  0x08002740        0x0
-                0x08002740                . = ALIGN (0x4)
-                0x08002740                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08002710        0x0
+                0x08002710                . = ALIGN (0x4)
+                0x08002710                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002740                PROVIDE (__preinit_array_end = .)
-                0x08002740                . = ALIGN (0x4)
+                0x08002710                PROVIDE (__preinit_array_end = .)
+                0x08002710                . = ALIGN (0x4)
 
-.init_array     0x08002740        0x8
-                0x08002740                . = ALIGN (0x4)
-                0x08002740                PROVIDE (__init_array_start = .)
+.init_array     0x08002710        0x8
+                0x08002710                . = ALIGN (0x4)
+                0x08002710                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08002740        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08002710        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08002744        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08002748                PROVIDE (__init_array_end = .)
-                0x08002748                . = ALIGN (0x4)
+ .init_array    0x08002714        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002718                PROVIDE (__init_array_end = .)
+                0x08002718                . = ALIGN (0x4)
 
-.fini_array     0x08002748        0x4
-                0x08002748                . = ALIGN (0x4)
-                0x08002748                PROVIDE (__fini_array_start = .)
+.fini_array     0x08002718        0x4
+                0x08002718                . = ALIGN (0x4)
+                0x08002718                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08002748        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0800274c                PROVIDE (__fini_array_end = .)
-                0x0800274c                . = ALIGN (0x4)
-                0x0800274c                _sidata = LOADADDR (.data)
+ .fini_array    0x08002718        0x4 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0800271c                PROVIDE (__fini_array_end = .)
+                0x0800271c                . = ALIGN (0x4)
+                0x0800271c                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x0800274c
+.data           0x20000000      0x43c load address 0x0800271c
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1413,11 +1412,11 @@ LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x08002b88
+.igot.plt       0x2000043c        0x0 load address 0x08002b58
  .igot.plt      0x2000043c        0x0 d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000043c                . = ALIGN (0x4)
 
-.bss            0x20000440      0x120 load address 0x08002b88
+.bss            0x20000440      0x120 load address 0x08002b58
                 0x20000440                _sbss = .
                 0x20000440                __bss_start__ = _sbss
  *(.bss)
@@ -1445,7 +1444,7 @@ LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
                 0x20000560                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000560      0x600 load address 0x08002b88
+                0x20000560      0x600 load address 0x08002b58
                 0x20000560                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 0x20000560                PROVIDE (_end = .)
@@ -1527,22 +1526,22 @@ LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../.
 LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0xd7e7
+.debug_info     0x00000000     0xd7c6
  .debug_info    0x00000000     0x105b CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj
  .debug_info    0x0000105b      0x199 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj
  .debug_info    0x000011f4      0x8a6 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj
- .debug_info    0x00001a9a      0xca9 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00002743      0x211 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00002954      0x130 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00002a84      0x248 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00002ccc      0x855 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x00003521       0x22 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_info    0x00003543      0x7a8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00003ceb      0xd8a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00004a75      0x66f CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x000050e4     0x3ab6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_info    0x00008b9a      0xa3b CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x000095d5     0x4212 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x00001a9a      0xc88 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00002722      0x211 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00002933      0x130 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x00002a63      0x248 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x00002cab      0x855 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x00003500       0x22 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_info    0x00003522      0x7a8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00003cca      0xd8a CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00004a54      0x66f CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x000050c3     0x3ab6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_info    0x00008b79      0xa3b CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x000095b4     0x4212 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
 .debug_abbrev   0x00000000     0x1a68
  .debug_abbrev  0x00000000      0x246 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj
@@ -1623,54 +1622,54 @@ LOAD d:/clion-environment/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
  .debug_ranges  0x000005e8       0xa0 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_ranges  0x00000688      0x210 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_line     0x00000000     0xd0f4
- .debug_line    0x00000000      0x626 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj
- .debug_line    0x00000626      0x175 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x0000079b      0x327 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj
- .debug_line    0x00000ac2      0x45c CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00000f1e      0x182 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x000010a0      0x1bf CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000125f      0x24c CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x000014ab      0x341 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x000017ec       0xa7 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_line    0x00001893      0x57c CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00001e0f      0x663 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00002472      0x60b CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00002a7d     0x563e CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_line    0x000080bb      0xc48 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00008d03     0x43f1 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.debug_line     0x00000000     0xd14d
+ .debug_line    0x00000000      0x62c CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj
+ .debug_line    0x0000062c      0x179 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj
+ .debug_line    0x000007a5      0x32f CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj
+ .debug_line    0x00000ad4      0x463 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000f37      0x186 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x000010bd      0x1c3 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00001280      0x250 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x000014d0      0x349 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x00001819       0xa9 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_line    0x000018c2      0x584 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00001e46      0x669 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x000024af      0x611 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x00002ac0     0x5646 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_line    0x00008106      0xc4e CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00008d54     0x43f9 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_str      0x00000000     0x2cd3
- .debug_str     0x00000000      0x828 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj
-                                0x8f8 (size before relaxing)
- .debug_str     0x00000828       0x87 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj
-                                0x225 (size before relaxing)
- .debug_str     0x000008af      0x10e CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj
-                                0x774 (size before relaxing)
- .debug_str     0x000009bd      0x3d2 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
-                                0xb27 (size before relaxing)
- .debug_str     0x00000d8f       0x7b CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                                0x25f (size before relaxing)
- .debug_str     0x00000e0a       0xd8 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                                0x262 (size before relaxing)
- .debug_str     0x00000ee2       0x9f CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                                0x294 (size before relaxing)
- .debug_str     0x00000f81       0x72 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
-                                0x700 (size before relaxing)
- .debug_str     0x00000ff3       0x57 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                                 0x8d (size before relaxing)
- .debug_str     0x0000104a      0x603 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                                0x864 (size before relaxing)
- .debug_str     0x0000164d      0x3e6 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                                0x913 (size before relaxing)
- .debug_str     0x00001a33      0x164 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                                0x440 (size before relaxing)
- .debug_str     0x00001b97      0x905 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                               0x1005 (size before relaxing)
- .debug_str     0x0000249c      0x1f5 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                                0x66b (size before relaxing)
- .debug_str     0x00002691      0x642 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                                0xd34 (size before relaxing)
+.debug_str      0x00000000     0x2cf3
+ .debug_str     0x00000000      0x82c CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj
+                                0x8fc (size before relaxing)
+ .debug_str     0x0000082c       0x89 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/gpio.c.obj
+                                0x229 (size before relaxing)
+ .debug_str     0x000008b5      0x110 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/i2c.c.obj
+                                0x778 (size before relaxing)
+ .debug_str     0x000009c5      0x3ca CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/main.c.obj
+                                0xb21 (size before relaxing)
+ .debug_str     0x00000d8f       0x7d CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                                0x263 (size before relaxing)
+ .debug_str     0x00000e0c       0xda CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                                0x266 (size before relaxing)
+ .debug_str     0x00000ee6       0xa1 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                                0x298 (size before relaxing)
+ .debug_str     0x00000f87       0x74 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/usart.c.obj
+                                0x704 (size before relaxing)
+ .debug_str     0x00000ffb       0x59 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                                 0x91 (size before relaxing)
+ .debug_str     0x00001054      0x60f CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                                0x868 (size before relaxing)
+ .debug_str     0x00001663      0x3e8 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                                0x917 (size before relaxing)
+ .debug_str     0x00001a4b      0x166 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                                0x444 (size before relaxing)
+ .debug_str     0x00001bb1      0x907 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                               0x1009 (size before relaxing)
+ .debug_str     0x000024b8      0x1f7 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                                0x66f (size before relaxing)
+ .debug_str     0x000026af      0x644 CMakeFiles/C8T6_MPU6050.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                                0xd38 (size before relaxing)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 CMakeFiles/C8T6_MPU6050.elf.dir/Bsp/mpu_6050.c.obj

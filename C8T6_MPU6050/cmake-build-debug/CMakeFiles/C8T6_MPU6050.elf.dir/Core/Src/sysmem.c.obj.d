@@ -1,5 +1,5 @@
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/sysmem.c.obj: \
- D:\STM32CubeMX\ project\C8T6_MPU6050\Core\Src\sysmem.c \
+ D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\sysmem.c \
  d:\clion-environment\10\ 2021.10\arm-none-eabi\include\errno.h \
  d:\clion-environment\10\ 2021.10\arm-none-eabi\include\sys\errno.h \
  d:\clion-environment\10\ 2021.10\arm-none-eabi\include\sys\reent.h \

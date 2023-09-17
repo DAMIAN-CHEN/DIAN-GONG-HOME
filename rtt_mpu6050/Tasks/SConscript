@@ -1,0 +1,11 @@
+from building import *
+import os
+
+cwd     = GetCurrentDir()
+
+src = [cwd + '/mpu_6050.c']
+
+path = [cwd]
+group = DefineGroup('Tasks', src, depend = [''], CPPPATH = path)
+
+Return('group')

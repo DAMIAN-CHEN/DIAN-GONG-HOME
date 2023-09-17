@@ -105,7 +105,7 @@ int main(void)
       Accl[1]=mpu_6050_data.Ay*100;
       Accl[2]=mpu_6050_data.Az*100;
       HAL_UART_Transmit(&huart1,Accl,3,100);
-      HAL_Delay(50);
+
   }
   /* USER CODE END 3 */
 }

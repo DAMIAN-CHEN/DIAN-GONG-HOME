@@ -1,4 +1,4 @@
-# Install script for directory: D:/RM-SOURCE/Infantry/DOWN-master _SBUS
+# Install script for directory: D:/GitHub/DIAN-GONG-HOME/DOWN-master _SBUS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/RM-SOURCE/Infantry/DOWN-master _SBUS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/GitHub/DIAN-GONG-HOME/DOWN-master _SBUS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

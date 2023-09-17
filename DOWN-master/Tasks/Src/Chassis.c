@@ -203,10 +203,10 @@ void Chassis_Calc_moto_speed(float vx, float vy, float vw, int16_t speed[]){
     VAL_LIMIT(vy, -MAX_CHASSIS_VY_SPEED, MAX_CHASSIS_VY_SPEED);  //mm/s
     VAL_LIMIT(vw, -MAX_CHASSIS_VR_SPEED, MAX_CHASSIS_VR_SPEED);  //deg/s
 
-    wheel_rpm[0] = -(+vx -vy - vw * rotate_ratio_f) * wheel_rpm_ratio;
-    wheel_rpm[1] = (-vx -vy + vw * rotate_ratio_f) * wheel_rpm_ratio;
-    wheel_rpm[2] = -(-vx - vy - vw * rotate_ratio_b) * wheel_rpm_ratio;
-    wheel_rpm[3] = (+vx - vy + vw * rotate_ratio_b) * wheel_rpm_ratio;
+    wheel_rpm[0] = -(+vx -vy - vw * rotate_ratio_f*2) * wheel_rpm_ratio*0.4f; //Âó¿ËÄÉÄ·ÂÖ
+    wheel_rpm[1] = (-vx -vy + vw * rotate_ratio_f*2) * wheel_rpm_ratio*0.4f;
+    wheel_rpm[2] = -(-vx - vy - vw * rotate_ratio_b*2) * wheel_rpm_ratio*0.4f;
+    wheel_rpm[3] = (+vx - vy + vw * rotate_ratio_b*2) * wheel_rpm_ratio*0.4f;
 
    /* wheel_rpm[0] = (+vx + vy + vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.1f; //left//xÈ«ÏòÂÖ
     wheel_rpm[1] = (+vx - vy + vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.1f; //forward

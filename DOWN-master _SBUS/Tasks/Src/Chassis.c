@@ -173,8 +173,12 @@ void Chassis_Send_current(int16_t current[]){
 void Chassis_Get_control_information(void){
     pc_kb_hook();
     //遥控器以及鼠标对底盘的控制信息转化为标准单位，平移为(mm/s)旋转为(degree/s)
-    chassis.vx = rc.ch1 * CHASSIS_RC_MOVE_RATIO_X / RC_MAX_VALUE * MAX_CHASSIS_VX_SPEED + km.vx * CHASSIS_PC_MOVE_RATIO_X;
+   /* chassis.vx = rc.ch1 * CHASSIS_RC_MOVE_RATIO_X / RC_MAX_VALUE * MAX_CHASSIS_VX_SPEED + km.vx * CHASSIS_PC_MOVE_RATIO_X; //麦克纳姆轮
     chassis.vy = rc.ch2 * CHASSIS_RC_MOVE_RATIO_Y / RC_MAX_VALUE * MAX_CHASSIS_VY_SPEED + km.vy * CHASSIS_PC_MOVE_RATIO_Y;
+    chassis.vw = rc.ch4 * CHASSIS_RC_MOVE_RATIO_R / RC_MAX_VALUE * MAX_CHASSIS_VR_SPEED + rc.mouse.x * CHASSIS_PC_MOVE_RATIO_R;*/
+
+    chassis.vx = rc.ch1 * CHASSIS_RC_MOVE_RATIO_X / RC_MAX_VALUE * MAX_CHASSIS_VX_SPEED + km.vx * CHASSIS_PC_MOVE_RATIO_X; //全向轮
+    chassis.vy = -(rc.ch2 * CHASSIS_RC_MOVE_RATIO_Y / RC_MAX_VALUE * MAX_CHASSIS_VY_SPEED + km.vy * CHASSIS_PC_MOVE_RATIO_Y);
     chassis.vw = rc.ch4 * CHASSIS_RC_MOVE_RATIO_R / RC_MAX_VALUE * MAX_CHASSIS_VR_SPEED + rc.mouse.x * CHASSIS_PC_MOVE_RATIO_R;
 }
 
@@ -203,16 +207,15 @@ void Chassis_Calc_moto_speed(float vx, float vy, float vw, int16_t speed[]){
     VAL_LIMIT(vy, -MAX_CHASSIS_VY_SPEED, MAX_CHASSIS_VY_SPEED);  //mm/s
     VAL_LIMIT(vw, -MAX_CHASSIS_VR_SPEED, MAX_CHASSIS_VR_SPEED);  //deg/s
 
-    wheel_rpm[0] = -(+vx -vy - vw * rotate_ratio_f) * wheel_rpm_ratio;
+   /* wheel_rpm[0] = -(+vx -vy - vw * rotate_ratio_f) * wheel_rpm_ratio;   //麦克纳姆轮
     wheel_rpm[1] = (-vx -vy + vw * rotate_ratio_f) * wheel_rpm_ratio;
     wheel_rpm[2] = -(-vx - vy - vw * rotate_ratio_b) * wheel_rpm_ratio;
-    wheel_rpm[3] = (+vx - vy + vw * rotate_ratio_b) * wheel_rpm_ratio;
+    wheel_rpm[3] = (+vx - vy + vw * rotate_ratio_b) * wheel_rpm_ratio;*/
 
-   /* wheel_rpm[0] = (+vx + vy + vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.1f; //left//x全向轮
-    wheel_rpm[1] = (+vx - vy + vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.1f; //forward
-    wheel_rpm[2] = (-vx - vy + vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.1f; //right
-    wheel_rpm[3] = (-vx + vy + vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.1f; //back
-*/
+    wheel_rpm[0] = (+vx + vy + 0.03f * vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.8f; //left//x全向轮
+    wheel_rpm[1] = (+vx - vy + 0.03f * vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.8f; //forward
+    wheel_rpm[2] = (-vx - vy + 0.03f * vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.8f; //right
+    wheel_rpm[3] = (-vx + vy + 0.03f * vw * (LENGTH_A+LENGTH_B)) * wheel_rpm_ratio*0.8f; //back
     //限制每个轮的转速，找出最大值
     for (uint8_t i = 0; i < 4; i++){
         if (abs(wheel_rpm[i]) > max)

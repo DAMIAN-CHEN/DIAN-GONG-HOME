@@ -1,4 +1,4 @@
-# Install script for directory: D:/STM32CubeMX project/C8T6_MPU6050
+# Install script for directory: D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/STM32CubeMX project/C8T6_MPU6050/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/GitHub/DIAN-GONG-HOME/C8T6_MPU6050/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

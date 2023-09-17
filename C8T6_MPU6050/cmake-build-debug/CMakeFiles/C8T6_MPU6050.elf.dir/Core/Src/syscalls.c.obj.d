@@ -1,5 +1,5 @@
 CMakeFiles/C8T6_MPU6050.elf.dir/Core/Src/syscalls.c.obj: \
- D:\STM32CubeMX\ project\C8T6_MPU6050\Core\Src\syscalls.c \
+ D:\GitHub\DIAN-GONG-HOME\C8T6_MPU6050\Core\Src\syscalls.c \
  d:\clion-environment\10\ 2021.10\arm-none-eabi\include\sys\stat.h \
  d:\clion-environment\10\ 2021.10\arm-none-eabi\include\_ansi.h \
  d:\clion-environment\10\ 2021.10\arm-none-eabi\include\newlib.h \
